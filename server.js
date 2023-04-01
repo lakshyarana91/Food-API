@@ -5,8 +5,6 @@ var cors = require('cors')
 
 const app = require('./app');
 
-// app.use(cors())
-
 const DB = process.env.DATABASE
 
 mongoose.connect(DB, {
